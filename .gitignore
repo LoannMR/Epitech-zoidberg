@@ -1,0 +1,14 @@
+# dataset
+/data/chest_Xray
+
+# conda environnements
+/venv-cpu
+/venv-gpu
+
+.DS_Store
+
+# keras tuner
+/notebooks/output/KerasTunerCNN
+
+# Ignore tensorflow models saved (too large to push)
+*.h5

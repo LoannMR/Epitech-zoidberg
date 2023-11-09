@@ -1,0 +1,15 @@
+name: venv-cpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - pip:
+      - tensorflow-cpu
+      - chardet

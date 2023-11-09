@@ -1,0 +1,17 @@
+name: venv-gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - jupyter
+  - pip:
+      - matplotlib
+      - numpy
+      - pandas
+      - scikit-learn
+      - scipy
+      - seaborn
+      - tensorflow
+      - chardet
